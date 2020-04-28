@@ -50,7 +50,8 @@ main{
 main .card-supervisor{
     border-radius: 10px;
     box-shadow: 0 5px 10px grey;
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     height: 230px;
     border-top: cyan solid 4px;
     margin-bottom: 50px;
@@ -73,7 +74,8 @@ main .card-supervisor img{
 main .card-team{
     border-radius: 10px;
     box-shadow: 0 5px 10px grey;
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     height: 230px;
     border-top: red solid 4px;
     margin-bottom: 30px;
@@ -96,7 +98,8 @@ main .card-team img{
 main .card-karma{
     border-radius: 10px;
     box-shadow: 0 5px 10px grey;
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     height: 230px;
     border-top: orange solid 4px;
     margin-bottom: 30px;
@@ -119,7 +122,8 @@ main .card-karma img{
 main .card-calculator{
     border-radius: 10px;
     box-shadow: 0 5px 10px grey;
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     height: 230px;
     border-top: #549cee solid 4px;
     margin-bottom: 30px;
@@ -138,4 +142,12 @@ main .card-calculator p{
 main .card-calculator img{
     margin-left: 70%;
     margin-top: 13%;
+}
+@media (max-width: 700px){
+    main{
+        margin-top: 50px;
+        margin-left: 50px;
+        width: 100%;
+        display: block;
+    }
 }
